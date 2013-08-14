@@ -65,7 +65,7 @@ def run_setup():
         keywords='subversion,svn,scm,pysvn',
         packages=find_packages('lib'),
         package_dir={'': 'lib'},
-        install_requires=['psutil>=0.6',],
+        #install_requires=['psutil>=0.6',],
         entry_points={
             'console_scripts': [
                 'evnadmin = evn.admin.cli:main',
